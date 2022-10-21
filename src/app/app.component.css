@@ -20,3 +20,7 @@
 .navbar-light .navbar-toggler{
     color:#fff !important;
 }
+
+.nav-item a {
+  cursor: pointer;
+}

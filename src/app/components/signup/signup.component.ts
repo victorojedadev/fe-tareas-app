@@ -26,7 +26,6 @@ export class SignupComponent implements OnInit {
     this.authService.signUp(this.user)
       .subscribe(
         res => {
-          console.log(res);
           localStorage.setItem('token', res.token);
           this.router.navigate(['/private']);
         },
